@@ -1,0 +1,52 @@
+.topHeader{
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 4px #eee;
+  
+  padding: 20px 0px
+}
+
+.searchBar .input-group-text{
+  background: #fff!important;
+  border:none!important;
+  border-bottom:1px #ced4da solid!important;
+  border-radius:0px!important
+}
+
+.searchBar .form-control{
+  border:none!important;
+  border-bottom:1px #ced4da solid!important;
+  border-radius:0px!important
+}
+
+.logo{
+  flex-basis: 20%;
+}
+
+.mrLeft{
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.myac{
+  float: left;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.headRight{
+  display: flex;
+}
+
+
+@media screen and (max-width:800px){
+  .headRight{
+    flex-direction: column;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+}

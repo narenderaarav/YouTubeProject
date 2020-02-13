@@ -1,0 +1,12 @@
+
+.searchArea{
+  width: auto;
+  margin-right: 10px;
+  
+}
+
+@media screen and (max-width:800px){
+  .searchArea{
+    order: 5;
+  }
+}

@@ -1,0 +1,35 @@
+.contact{
+  margin-top: 30px;
+  padding: 20px;
+  border-radius:5px;
+  box-shadow: 0px 0px 8px rgb(173, 173, 173);
+  border:1px #efefef solid;
+}
+
+.contactHeading{
+  width: 100%;
+  text-align: center;
+  margin-bottom:30px ;
+  padding-bottom: 10px;
+  border-bottom:1px #efefef solid;
+}
+
+.error{
+  font-size: 13px;
+  color: red;
+}
+
+.welcome{
+  text-align: center;
+}
+.welcome h4{
+  font-size: 40px;
+  font-weight: bold;
+  color: #444;
+}
+
+.welcome h5{
+  font-size: 30px;
+  font-weight: bold;
+  color: #65587f;
+}

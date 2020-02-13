@@ -1,0 +1,14 @@
+{
+	"body": [{
+			"_id": "5e1ebe39d3e0ce29b6fadc43",
+			"title": "my new cartoon video",
+			"description": "nice video foethe cartion ihcdsuif\nhsagdsahdkasjn\nhjsgdashdsd",
+			"videoUrl": "https://www.youtube.com/watch?v=gsUVlE2Sg9s"
+		},
+		{
+			"_id": "5e1ebf89e1086d2dca10cde7",
+			"contentType": "image/jpeg",
+			"image": "base64 Image data"
+		}
+	]
+}

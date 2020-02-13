@@ -1,0 +1,52 @@
+img{
+  max-width: 100%;
+}
+.imageContainer{
+  width: 100%;
+  overflow: hidden;
+  transition: transform .8s;
+}
+.imageContainer img {
+  max-width: 100%;
+  transition: all 2.0s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.imageContainer:hover img {
+  transform: scale(1.9);
+}
+
+
+.detailsContainer{
+  width: 100%;
+}
+.detailsContainer h1{
+  font-size: 24px;
+  color: #444;
+  padding:0px;
+  margin: 0px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.detailsContainer p{
+  font-size: 16px;
+  text-align: left;
+}
+
+.listContainer{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+
+
+@media only screen and (min-width:100px) and (max-width:767px) {
+  .imageContainer{
+    margin-bottom: 20px;
+  }
+}
