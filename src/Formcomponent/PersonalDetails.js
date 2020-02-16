@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import "./Form.css";
 export class PersonalDetails extends Component {
-  continue = e => {
-    e.preventDefault();
-    this.props.nextStep();
-  };
+  
   state = {
     nameError: "please fill the name",
     emailError: "Please fill Email",
@@ -16,7 +13,7 @@ export class PersonalDetails extends Component {
   render() {
     const { values, handleChange, nameError } = this.props;
     return (
-      <form>
+
         <div className="container">
           <div className="row">
             <div className="offset-md-3 col-md-6">
@@ -82,10 +79,10 @@ export class PersonalDetails extends Component {
                     <div className="col-md-12">
                       <div className="form-group">
                         <input
-                          type="submit"
-                          value="Submit"
+                          type="button"
+                          value="Registration"
                           className="btn btn-success"
-                          onClick={this.continue}
+                          onClick={this.props.nextStep}
                         />
                       </div>
                     </div>
@@ -95,7 +92,6 @@ export class PersonalDetails extends Component {
             </div>
           </div>
         </div>
-      </form>
     );
   }
 }

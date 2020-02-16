@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import "./Form.css";
 export default class Welcome extends Component {
-  continue = e => {
-    e.preventDefault();
-    this.props.nextStep();
-  };
+
   render() {
     const { values, handleChange } = this.props;
     return (
@@ -14,11 +11,11 @@ export default class Welcome extends Component {
             <div className="offset-md-3 col-md-6 ">
               <div className="contact welcome text-center">
                 <h4>Welcome </h4>
-                <h5>Narender Kumar</h5>
+                <h5>{this.props.name}</h5>
                 <input
                   type="submit"
                   value="Next"
-                  onClick={this.continue}
+                  onClick={this.props.nextStep}
                   className="btn btn-success"
                 />
               </div>
